@@ -109,6 +109,22 @@ result
 ```
 GP% = DIVIDE([Gross Profit],[Sales])
 ```
+15) _Waterfall title
+```
+ _Waterfall title = SELECTEDVALUE(Slc_Values[Values]) & " YTD vs PYTD | Month - Country - Product"
+```
+16) _Column Chart title
+```
+_Column Chart title = SELECTEDVALUE(Slc_Values[Values]) & " YTD vs PYTD | Month "
+```
+17) _Scatter title
+```
+_Scatter title = " Account Profitability Segmentation | GP% and " & SELECTEDVALUE(Slc_Values[Values])
+```
+18) _Report title
+```
+_Report title = "Plant Co. " & SELECTEDVALUE(Slc_Values[Values]) & " Performance" & YEAR(SELECTEDVALUE(Dim_Date[Date].[Year]))
+```
 
 ### Relationships in Model
 - Create a PYTD folder - [PYTD_GrossProfit,PYTD_Sales,PYTD_Quantity]
