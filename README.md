@@ -136,12 +136,12 @@ _Report title = "Plant Co. " & SELECTEDVALUE(Slc_Values[Values]) & " Performance
 - Create a YTD folder containing: [YTD_GrossProfit, YTD_Sales, YTD_Quantity].
 - Create a Switch folder containing: [S_YTD, S_PYTD, YTD vs PYTD].
 - Create a Base Measure folder containing: [COGS, Gross_Profit, Sales, Quantity].
-![image](https://github.com/user-attachments/assets/24f42851-10af-43f2-a2c5-80cf61a602d3)
 
 ### Create JOINS
 - Join Fact_Sales and Dim_Product on Product_id.
 - Join Fact_Sales and Dim_Account on Account_id (Many-to-Many).
 - Join Fact_Sales and Dim_Date on Date.
+
 ![image](https://github.com/user-attachments/assets/4443eea3-4e15-4780-8404-1a96d9d89981)
 
 ## Visuals
