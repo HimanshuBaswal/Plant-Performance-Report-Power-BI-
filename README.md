@@ -1,4 +1,4 @@
-# Power-BI-Plant-Report
+# Plant-Performance-Report
 
 ## Objectives/Goal
 The goal is to create a concise and dynamic performance report using SWITCH measures and conditional formatting.
